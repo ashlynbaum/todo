@@ -35,5 +35,5 @@ Development Instructions:
   run tests
   bin/rspec spec/features/todo_lists/create_spec.rb
   bin/rspec spec/features/todo_lists/edit_spec.rb
-
+  bin/rspec spec/features/todo_lists/destroy_spec.rb
 

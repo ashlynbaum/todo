@@ -10,8 +10,9 @@ describe "Editing todo lists" do
     todo_list = options[:todo_list]
 
     within "#todo_list_#{todo_list.id}" do
-    click_link "Edit"
+      click_link "Edit"
     end
+
     fill_in "Title", with: options[:title]
     fill_in "Description", with: options[:description]
     click_button "Update Todo list"
