@@ -1,8 +1,11 @@
 <h1><%= @todo_list.title %></h1>
 
 <ul class="todo_items">
-  <% @todo_list.todo_items.each do |todo_items| %>
-  <li><%= todo_items.content %></li>
+  <% @todo_list.todo_items.each do |todo_item| %>
+  <li id="<%= dom_id(todo_item) %>">
+    <%= todo_item.content %>
+    <%= link_to "Edit", edit_todo_list_todo_item_path(todo_item) %>
+  </li>
   <% end %>
 </ul>
 
