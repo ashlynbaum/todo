@@ -1,39 +1,20 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+This is a todo list application. It is used as a demonstation for ruby on rails.
 
 * Ruby version: 2.2.2
+
+
 Development Instructions:
   run server:
   bin/rails server
 
   run tests
-  bin/rspec spec/features/todo_lists/create_spec.rb
-  bin/rspec spec/features/todo_lists/edit_spec.rb
-  bin/rspec spec/features/todo_lists/destroy_spec.rb
+  bin/rspec
+
+To view a working copy
+  * Fork Repository
+  * clone repo
+  * run server
+
 
