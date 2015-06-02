@@ -26,3 +26,14 @@ Things you may want to cover:
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.
+
+* Ruby version: 2.2.2
+Development Instructions:
+  run server:
+  bin/rails server
+
+  run tests
+  bin/rspec spec/features/todo_lists/create_spec.rb
+  bin/rspec spec/features/todo_lists/edit_spec.rb
+  bin/rspec spec/features/todo_lists/destroy_spec.rb
+
